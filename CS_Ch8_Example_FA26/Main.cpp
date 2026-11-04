@@ -26,7 +26,7 @@ int main()
 	return 0;
 }
 
-void functionA(int x_, int y_)
+void functionA(int x_, int& y_)
 {
 	x_++;
 	y_++;
